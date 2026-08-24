@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="Kohle &amp; Code">
+  <defs>
+    <linearGradient id="glutg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB25E"/>
+      <stop offset=".55" stop-color="#FF5A1F"/>
+      <stop offset="1" stop-color="#E8480F"/>
+    </linearGradient>
+    <filter id="glowf" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2"/>
+    </filter>
+  </defs>
+  <polygon points="50,4 87,20 95,57 71,94 31,95 6,64 13,25" fill="#17191C" stroke="#2E3338" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="50,4 87,20 63,45 38,38" fill="#1F2226"/>
+  <polygon points="87,20 95,57 63,45" fill="#1A1D20"/>
+  <polygon points="6,64 13,25 38,38 34,62" fill="#1C1F23"/>
+  <polygon points="71,94 31,95 34,62 63,45 95,57" fill="#141619"/>
+  <polyline points="38,38 63,45" stroke="#2E3338" stroke-width="1.4" fill="none"/>
+  <polyline points="34,62 63,45" stroke="#26292E" stroke-width="1.2" fill="none"/>
+  <g filter="url(#glowf)" stroke="#FF5A1F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".85">
+    <polyline points="39,39 27,50 39,61"/>
+    <polyline points="61,39 73,50 61,61"/>
+    <line x1="54" y1="36" x2="46" y2="64"/>
+  </g>
+  <g stroke="url(#glutg)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <polyline points="39,39 27,50 39,61"/>
+    <polyline points="61,39 73,50 61,61"/>
+    <line x1="54" y1="36" x2="46" y2="64"/>
+  </g>
+</svg>
